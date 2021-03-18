@@ -1,4 +1,11 @@
-If we declare a variable inside class and inside the init, it will be an INSTANCE VARIABLE.
-If we declare a variable inside class but outside the init, it will be a CLASS VARIABLE.
+If we declare a variable inside class and inside the init, it will be an INSTANCE VARIABLE.(Instance namespace)
+If we declare a variable inside class but outside the init, it will be a CLASS VARIABLE.(Class namespace)
 NAMESPACE is an area where we create and store object/variable---> 1. Class Namespace
                                                               ---> 2. Object/Instance Namespace
+If you only want to fetch the value--Accessor methods             ------getters
+If you want to modify the values--Mutators                        ------setters
+
+If you're working with object, use "self" keyword
+If you're working with class, use "cls" keyword--- use decorators with '@' (@classmethod)
+If you're working with neither of the (do not want to instantiate either of class variable or instance variable) keep the '()' as blank----you will need this when 
+you are working with other classes or with a value which has nothing to do with the class (factorial)----use '@staticmethod'
