@@ -1,0 +1,4 @@
+If we declare a variable inside class and inside the init, it will be an INSTANCE VARIABLE.
+If we declare a variable inside class but outside the init, it will be a CLASS VARIABLE.
+NAMESPACE is an area where we create and store object/variable---> 1. Class Namespace
+                                                              ---> 2. Object/Instance Namespace
