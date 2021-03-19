@@ -9,3 +9,8 @@ If you're working with object, use "self" keyword
 If you're working with class, use "cls" keyword--- use decorators with '@' (@classmethod)
 If you're working with neither of the (do not want to instantiate either of class variable or instance variable) keep the '()' as blank----you will need this when 
 you are working with other classes or with a value which has nothing to do with the class (factorial)----use '@staticmethod'
+
+Reference variables can hold the objects
+We can create objects without any reference variable
+An object can have more than one reference variables
+Assigning a new reference variable to an older existing object does not create a new object.
